@@ -700,7 +700,7 @@
             ]
         },
         {
-            "names": [ "ivy" ],
+            "names": [ "ivy", "E6553", "E6533" ],
             "manifest_url": "http://xperiamultirom.github.io/manifests/ivy.json",
             "check_gpg": false,
             "kexec_check_path": "/sys/kernel/kexec_loaded",
