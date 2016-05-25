@@ -721,6 +721,29 @@
                     "path": "/dev/block/bootdevice/by-name/cache"
                 }
             ]
+        },
+        {
+            "names": [ "huashan", "C5302", "C5303", "C5306" ],
+            "manifest_url": "http://xperiamultirom.github.io/manifests/huashan.json",
+            "check_gpg": false,
+            "kexec_check_path": "/sys/kernel/kexec_loaded",
+            "ubuntu_touch": {
+                "enabled": false
+            },
+            "devices": [
+                {
+                    "name": "recovery",
+                    "path": "/dev/block/platform/msm_sdcc.1/by-name/FOTAKernel"
+                },
+                {
+                    "name": "boot",
+                    "path": "/dev/block/platform/msm_sdcc.1/by-name/Kernel"
+                },
+                {
+                    "name": "cache",
+                    "path": "/dev/block/platform/msm_sdcc.1/by-name/Cache"
+                }
+            ]
         }
     ]
 }
