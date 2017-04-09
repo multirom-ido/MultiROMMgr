@@ -744,6 +744,29 @@
                     "path": "/dev/block/platform/msm_sdcc.1/by-name/Cache"
                 }
             ]
+        },
+{
+            "names": [ "ido" ],
+            "manifest_url": "https://multirom-ido.github.io/manifests/ido.json",
+            "check_gpg": false,
+            "kexec_check_path": "/sys/kernel/kexec_loaded",
+            "ubuntu_touch": {
+                "enabled": false
+            },
+            "devices": [
+                {
+                    "name": "recovery",
+                    "path": "/dev/block/bootdevice/by-name/recovery"
+                },
+                {
+                    "name": "boot",
+                    "path": "/dev/block/bootdevice/by-name/boot"
+                },
+                {
+                    "name": "cache",
+                    "path": "/dev/block/bootdevice/by-name/cache"
+                }
+            ]
         }
     ]
 }
